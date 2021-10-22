@@ -1,0 +1,43 @@
+#For Local Server
+Design pattern API URL: http://127.0.0.1:8000/api/get/subjects
+Method: POST
+Post JSON Data Example:
+{
+	"hsc_math": 1,
+	"hsc_bio": 1,
+	"gst_math": 6,
+	"gst_chem": 6,
+	"gst_phy": 6,
+	"gst_bio": 6
+}
+
+POST DATA Types:
+{
+	"hsc_math": 1(Boolean),
+	"hsc_bio": 1(Boolean),
+	"gst_math": 6(Numeric),
+	"gst_chem": 6(Numeric),
+	"gst_phy": 6(Numeric),
+	"gst_bio": 6(Numeric)
+}
+
+Success Output (JSON FORMAT):
+[
+    "Mathematics",
+    "Chemistry",
+    "Physics",
+    "Geology and Mining",
+    "Computer Science and Engineering",
+    "Statistics",
+    "Soil and Environmental Science",
+    "Botany",
+    "Costal Studies and Disaster Management",
+    "Biochemistry and Biotechnology"
+]
+
+
+Frontend URL: http://127.0.0.1:8000
+
+Installation and Github Link: https://github.com/prantacse4/EligibleSubjectProvider
+
+
