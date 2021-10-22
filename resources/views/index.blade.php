@@ -47,8 +47,6 @@
             </div>
         </div>
 <br>
-
-
         <div class="card shadow d-none" id="data2">
             <div class="card-header md d-none" id="data3">
                 <h5>Eligible Subject List</h5>
