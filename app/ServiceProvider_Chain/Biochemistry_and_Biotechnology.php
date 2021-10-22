@@ -19,7 +19,6 @@ class Biochemistry_and_Biotechnology extends Service{
             }
         }
         return $this->setNextEligible($request);
-
     }
 }
 
