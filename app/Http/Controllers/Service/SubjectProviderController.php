@@ -69,7 +69,6 @@ class SubjectProviderController extends Controller
         catch (\Throwable $th){
             return response()->json("No Eligible Subjects", 404);
         }
-
         if($request['el_subjects'] == ''){
             return response()->json("No Eligible Subjects", 404);
         }
